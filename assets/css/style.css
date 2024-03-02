@@ -61,25 +61,29 @@ body {
   justify-content: center;
   align-items: center;
 }
-.address-icon svg {
+.item-icon {
+  display: flex;
+  margin: 5px 0;
+}
+.item-icon svg {
   width: 30px;
   height: 30px;
 }
-.address-container {
+.item-container {
   display: flex;
   align-items: center;
 }
 .address {
   padding-right: 5px;
 }
-.phone-container {
-  display: flex;
-  align-items: center;
+
+.email {
+  padding-right: 5px;
+  text-decoration: none !important;
+  color: inherit !important;
+  outline: 0;
 }
-.phone-icon svg {
-  width: 30px;
-  height: 30px;
-}
+
 .phone {
   padding-right: 5px;
   text-decoration: none !important;
